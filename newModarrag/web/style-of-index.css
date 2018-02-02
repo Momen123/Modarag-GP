@@ -1,0 +1,416 @@
+@import url("http://weloveiconfonts.com/api/?family=entypo");
+
+body{
+	margin:0px;
+	}
+li{
+	list-style:none;
+	display:list-item;
+	}
+a{
+		text-decoration:none;
+	}
+.fa-user{
+	color:#FFF;
+	}
+.fa-sign-out{
+	color: #fff;
+	}
+.fa-phone{
+	color: #fff;
+	}
+.fa-location-arrow{
+	color: #FFF;
+    }
+.fa-envelope{
+	color:#fff;
+	}
+	
+
+	
+/*---------------------------------nav------------------------------*/
+.nnav{
+	background-color: #28465A;
+	width: 100%;
+	height: 40px;
+	display:none;
+	}
+.nested-nnav{
+	height: 50px;
+	width: 960px;
+	margin-left:auto;
+	margin-right:auto;
+	}
+.container .col-lg-12 p{
+	color: #fff;
+	font-size: 15px !important;
+	margin-right: 8px;
+	margin-left: 2px;
+	line-height: 22px !important;
+	text-align: center !important;
+	display: inline-block;
+	position: relative;
+	left: 80px;
+	}
+.border-Bar{
+	height: 5px;
+	width: 100%;
+	background-color: #28465A;
+}
+.square{
+	width: 20px;
+	height: 20px;
+	background-color: #28465A;
+	border-radius: 4px;
+	float: right;
+	position: relative;
+	right: 8%;
+	box-shadow: 20px 38px 34px -26px hsla(0,0%,0%,.2);
+	}
+.fa-arrow-up{
+	color: #FFFFFF;
+	text-align: center;
+	position: relative;
+	top: 2px;
+	}
+
+/* social */
+/* end social */
+/*---------------------------------pic------------------------------*/
+.pic{
+	height: 240px;
+	width: 100%;
+	background-image: url(_HD_01.jpg9338e6d0-f9a7-4072-a53a-06aca73724eeOriginal.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+	}
+.pic img{
+    text-align: center;
+    background-position: 50% 50%;
+    width: 500px;
+    height: 243px;
+    z-index: 999;
+    position: relative;
+    right: 30%;
+    /* left: 440px; */
+    bottom: 10px;
+
+	}
+.breadcrumb{
+	background-color: #fff;
+	}
+/*---------------------------------end pic------------------------------*/
+
+/*---------------------------------nav-bar------------------------------*/
+
+ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 17px 0;
+	list-style: none;
+	position: relative;
+	top: 17px;
+}
+ul li {
+  font: bold 12px/18px sans-serif;
+  display: inline-block;
+  margin-right: -4px;
+  position: relative;
+  padding: 15px 20px;
+  background: #fff;
+  background-color: #ff525e;
+  cursor: pointer;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+ul li:hover {
+  background: #28465A;
+  margin-left:4px;
+}
+ul li a{
+	color:#fff;
+}
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transiton: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  -o-transition: opacity 0.2s;
+  -transition: opacity 0.2s;
+}
+ul li ul li { 
+  background: #555; 
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover { background: #666; }
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+.meenu{
+	background-color: #ff525e;
+	width: 100%;
+	height: 57px;
+	position: relative;
+	bottom: 13px;
+	border-top: 6px solid #FF2440;
+	
+	}
+.nested-meenu{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	height: 57px;
+	position: relative;
+	bottom: 17px;
+	}
+.nested-meenu .myAccount{
+	float: right;
+	position: relative;
+	top: 32px;
+	}
+.nested-meenu .myAccount a{
+	float: right;
+	position: relative ;
+	color: #FFFFFF;
+	margin-left: 6px;
+	margin-right:10px;
+	font-family: 'Source Sans Pro', sans-serif !important;
+	}
+.nested-meenu .myAccount a:hover{
+	text-decoration:underline;
+}
+.nested-meenu .logout{
+	float: right;
+	position: relative;
+	top: 32px;
+	}
+.nested-meenu .logout a{
+	float: right;
+	position: relative;
+	color: #FFFFFF;
+	margin-left: 6px;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+/*.nested-meenu ul li{
+	display: inline-block;
+	position: relative;
+	right: 49px;
+	bottom: 3px;
+	}
+.nested-meenu ul li a{
+	color: #333;
+	color: #FFFFFF;
+	margin-right: 20px;
+	text-align: center;
+	line-height: 57px;
+    padding: 20px 15px;
+	font-family: 'Montserrat', sans-serif;
+	}
+.nested-meenu ul li a:hover{
+    background-color:#28465A;
+	margin-left:4px;
+    -webkit-transition-duration: 0.6s;
+}
+.nested-meenu ul li a:visited{
+	 background-color:#28465A;
+	}
+*/
+/*---------------------------------footer------------------------------*/
+footer{
+	position: relative;
+	bottom: 0;
+	top: 11px;
+}
+
+.footer-distributed{
+	background-color: #fff;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 55px 50px;
+	margin-top: 80px;
+	border-top: 6px solid #ff525e;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+	color: #000000;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+.footer-distributed h3 span{
+	color: #ff525e;
+	margin-left: 9px;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+	padding: 0;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color: #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+	text-align: left;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #333;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.footer-distributed .footer-center p span{
+	display: block;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 2;
+	color: #000000;
+}
+
+.footer-distributed .footer-center p a{
+	color: #333;
+	text-decoration: none;
+	;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+	position: relative;
+	left: 48px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color: #33383b;
+	border-radius: 23px;
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+/*---------------------------------nav-button------------------------------*/
+.nav-button{
+	width: 100%;
+	height: 60px;
+	background-color: #E6E6E6;
+}
+.nested-nav-button{
+	width: 960px;
+	height: 60px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.nested-nav-button p{
+	float: none;
+	text-align: center;
+	font-size: 12px;
+	color: #575656;
+	position: relative;
+	top: 24px;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+.nested-menu .logout a:hover {
+	text-decoration: underline;
+}
